@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="top"
+    android:clickable="true"
+    android:foreground="?attr/selectableItemBackground"
+    android:orientation="vertical"
+    app:cardBackgroundColor="@color/colorGreenLite"
+    app:cardCornerRadius="6dp"
+    app:cardElevation="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:fontFamily="@font/liaoirrit_reg"
+            android:hint="নাম"
+            android:textColorHint="@color/colorText"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorText"
+            android:textSize="14sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:fontFamily="@font/liaoirrit_reg"
+            android:layout_marginEnd="16dp"
+            android:textColor="@color/colorText"
+            android:textStyle="normal"
+            android:textSize="14sp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:fontFamily="@font/liaoirrit_reg"
+            android:hint="জেলা"
+            android:textColorHint="@color/colorText"
+            android:paddingTop="16dp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"
+            android:textColor="@color/colorText"
+            android:textSize="14sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/division"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:fontFamily="@font/liaoirrit_reg"
+            android:layout_marginEnd="16dp"
+            android:textColor="@color/colorText"
+            android:textStyle="normal"
+            android:textSize="14sp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:fontFamily="@font/liaoirrit_reg"
+            android:hint="বৈবাহিক অবস্থা"
+            android:textColorHint="@color/colorText"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorText"
+            android:textSize="14sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/marital_condition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/liaoirrit_reg"
+            android:textStyle="normal"
+            android:textColor="@color/colorText"
+            android:textSize="14sp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:fontFamily="@font/liaoirrit_reg"
+            android:hint="শিক্ষার মাধ্যম"
+            android:textColorHint="@color/colorText"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorText"
+            android:textSize="14sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/education_medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:fontFamily="@font/liaoirrit_reg"
+            android:layout_marginEnd="16dp"
+            android:textStyle="normal"
+            android:textColor="@color/colorText"
+            android:textSize="14sp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:fontFamily="@font/liaoirrit_reg"
+            android:hint="প্রতিদিন ৫ ওয়াক্ত নামায পড়া হয়"
+            android:textColorHint="@color/colorText"
+            android:paddingTop="16dp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"
+            android:textColor="@color/colorText"
+            android:textSize="14sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/prayer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/liaoirrit_reg"
+            android:textStyle="normal"
+            android:textColor="@color/colorText"
+            android:textSize="14sp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:fontFamily="@font/liaoirrit_reg"
+            android:hint="বাবা/মা আছে/নেই"
+            android:textColorHint="@color/colorText"
+            android:paddingTop="16dp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"
+            android:textColor="@color/colorText"
+            android:textSize="14sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/parents"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:paddingBottom="16dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/liaoirrit_reg"
+            android:textStyle="normal"
+            android:textColor="@color/colorText"
+            android:textSize="14sp">
+
+        </TextView>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

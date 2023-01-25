@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_marginBottom="36dp"
+        app:cardBackgroundColor="@color/colorCard"
+        app:cardCornerRadius="6dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/rg_sisters"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="16dp">
+
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="@string/one"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="@string/two"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="@string/three"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="@string/four"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="@string/five"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="@string/six"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="@string/seven"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="@string/eight"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="@string/nine"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="@string/ten"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="@string/nosister"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

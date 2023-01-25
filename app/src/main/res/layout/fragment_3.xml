@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/layout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="24dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="স্থায়ী ঠিকানা *"
+                android:fontFamily="@font/liaoirrit_reg"
+                android:textColor="@color/colorText"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="8dp">
+
+            </TextView>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                app:boxCornerRadiusTopStart="6dp"
+                app:boxCornerRadiusTopEnd="6dp"
+                android:layout_marginBottom="16dp"
+                app:errorEnabled="false"
+                app:hintTextColor="@color/colorText">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/permanentAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/liaoirrit_reg"
+                    android:inputType="text"
+                    android:hint="@string/answer"
+                    android:textColor="@color/colorText"
+                    android:textCursorDrawable="@drawable/cursor_color" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="বর্তমান ঠিকানা *"
+                android:fontFamily="@font/liaoirrit_reg"
+                android:textColor="@color/colorText"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="8dp">
+
+            </TextView>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                app:boxCornerRadiusTopStart="6dp"
+                app:boxCornerRadiusTopEnd="6dp"
+                android:layout_marginBottom="16dp"
+                app:errorEnabled="false"
+                app:hintTextColor="@color/colorText">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/currentAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:fontFamily="@font/liaoirrit_reg"
+                    android:hint="@string/answer"
+                    android:textColor="@color/colorText"
+                    android:textCursorDrawable="@drawable/cursor_color" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="কোথায় বড় হয়েছেন? *"
+                android:fontFamily="@font/liaoirrit_reg"
+                android:textColor="@color/colorText"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="8dp">
+
+            </TextView>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                app:boxCornerRadiusTopStart="6dp"
+                app:boxCornerRadiusTopEnd="6dp"
+                android:layout_marginBottom="120dp"
+                app:errorEnabled="false"
+                app:hintTextColor="@color/colorText">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/grewUp"
+                    android:layout_width="match_parent"
+                    android:fontFamily="@font/liaoirrit_reg"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:hint="@string/answer"
+                    android:textColor="@color/colorText"
+                    android:textCursorDrawable="@drawable/cursor_color" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/save"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="20dp"
+        android:layout_marginRight="24dp"
+        android:layout_gravity="bottom|center|right"
+        android:layout_marginBottom="24dp"
+        app:cardBackgroundColor="@color/colorWhite"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/save"
+            android:layout_gravity="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp"
+            android:fontFamily="@font/liaoirrit_reg"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp">
+
+        </TextView>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

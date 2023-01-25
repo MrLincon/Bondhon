@@ -1,0 +1,1149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_marginBottom="36dp"
+        app:cardBackgroundColor="@color/colorCard"
+        app:cardCornerRadius="6dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/rg_weight"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="16dp">
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="@string/Thirty"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="@string/thirtyone"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="@string/thirty2"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="@string/thirtythree"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="@string/thirtyfour"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="@string/thirty5"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="@string/thirtysix"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="৩৭ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="৩৮ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="৩৯ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="৪০ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="৪১ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="৪২ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="৪৩ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="৪৪ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="৪৫ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="৪৬ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="৪৭ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="৪৮ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:paddingLeft="24dp"
+                        android:text="৪৯ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp"></RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="৫০ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="৫১ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="৫২ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="৫৩ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="৫৪ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="৫৫ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="৫৬ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="৫৭ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="৫৮ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="৫৯ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="৬০ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="৬১ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="৬২ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:paddingLeft="24dp"
+                        android:text="৬৩ কেজি"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:paddingLeft="24dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:text="৬৪ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:paddingLeft="24dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:text="৬৫ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:paddingLeft="24dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:text="৬৬ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:paddingLeft="24dp"
+                        android:text="৬৭ কেজি"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:paddingLeft="24dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:text="৬৮ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="৬৯ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:paddingLeft="24dp"
+                        android:text="৭০ কেজি"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:paddingLeft="24dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:text="৭১ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:paddingLeft="24dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:text="৭২ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="৭৩ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:paddingLeft="24dp"
+                        android:text="৭৪ কেজি"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:paddingLeft="24dp"
+                        android:text="৭৫ কেজি"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:paddingLeft="24dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:text="৭৬ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:paddingLeft="24dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:text="৭৭ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:paddingLeft="24dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:text="৭৮ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:paddingLeft="24dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:text="৭৯ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:paddingLeft="24dp"
+                        android:text="৮০ কেজি"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:paddingLeft="24dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:text="৮১ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="৮২ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:paddingLeft="24dp"
+                        android:text="৮৩ কেজি"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:paddingLeft="24dp"
+                        android:text="৮৪ কেজি"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="৮৫ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:paddingLeft="24dp"
+                        android:text="৮৬ কেজি"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:paddingLeft="24dp"
+                        android:text="৮৭ কেজি"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:paddingLeft="24dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:text="৮৮ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:paddingLeft="24dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:text="৮৯ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:paddingLeft="24dp"
+                        android:text="৯০ কেজি"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:paddingLeft="24dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:text="৯১ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:paddingLeft="24dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:text="৯২ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:paddingLeft="24dp"
+                        android:text="৯৩ কেজি"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:paddingLeft="24dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:text="৯৪ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="৯৫ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="৯৬ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="৯৭ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="৯৮ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="৯৯ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="১০০ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="১০১ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="১০২ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="১০৩ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="১০৪ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="১০৫ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="১০৬ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="১০৭ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="১০৮ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="১০৯ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="১১০ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="১১১ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="১১২ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="১১৩ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="১১৪ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="১১৫ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="১১৬ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="১১৭ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="১১৮ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="১১৯ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="১২০ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="১২১ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="১২২ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/biodata1"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="১২৩ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="১২৪ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="১২৫ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="১২৬ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="১২৭ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="১২৮ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="১২৯ কেজি"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:text="@string/onehundredthirty"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

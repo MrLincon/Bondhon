@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/colorCard"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="60dp"
+        app:cardCornerRadius="6dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/rg_currentAddress"
+                    android:paddingLeft="16dp">
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="কক্সবাজার"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp"></RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="কিশোরগঞ্জ"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp"></RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="কুড়িগ্রাম"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp"></RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="কুমিল্লা"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp"></RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="কুষ্টিয়া"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp"></RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="খাগড়াছড়ি"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp"></RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="খুলনা"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp"></RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="গাইবান্ধা"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp"></RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="গাজীপুর"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp"></RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="গোপালগঞ্জ"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp"></RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="চট্টগ্রাম"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp"></RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="চাঁদপুর"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp"></RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="চাঁপাইনবাবগঞ্জ"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp"></RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="চুয়াডাঙ্গা"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp"></RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="জয়পুরহাট"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp"></RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="জামালপুর"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp"></RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="ঝালকাঠি"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp"></RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="ঝিনাইদহ"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp"></RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="টাঙ্গাইল"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp"></RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="ঠাকুরগাঁও"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp"></RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="ঢাকা"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp"></RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="দিনাজপুর"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp"></RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="নওগাঁ"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp"></RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="নড়াইল"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp"></RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="নরসিংদী"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp"></RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="নাটোর"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp"></RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="নারায়ণগঞ্জ"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp"></RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="নীলফামারী"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp"></RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="নেত্রকোণা"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp"></RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="নোয়াখালী"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp"></RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="পঞ্চগড়"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp"></RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="পটুয়াখালী"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="পাবনা"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp"></RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="পিরোজপুর"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp"></RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="ফরিদপুর"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp"></RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="ফেনী"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp"></RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="বগুড়া"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp"></RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="বরগুনা"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp"></RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="বরিশাল"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp"></RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="বাগেরহাট"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp"></RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="বান্দরবান"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp"></RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="ব্রাহ্মণবাড়িয়া"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp"></RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="ভোলা"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp"></RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="ময়মনসিংহ"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp"></RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="মাগুরা"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp"></RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="মাদারীপুর"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp"></RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="মানিকগঞ্জ"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp"></RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="মুন্সিগঞ্জ"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp"></RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="মেহেরপুর"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp"></RadioButton>
+
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="মৌলভীবাজার"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp"></RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="যশোর"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp"></RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="রংপুর"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp"></RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="রাঙ্গামাটি"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp"></RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="রাজবাড়ী"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp"></RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="রাজশাহী"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp"></RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="লক্ষ্মীপুর"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp"></RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="লালমনিরহাট"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp"></RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="শরীয়তপুর"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp"></RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="শেরপুর"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp"></RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="সাতক্ষীরা"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp"></RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="সিরাজগঞ্জ"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp"></RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="সিলেট"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp"></RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="সুনামগঞ্জ"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp"></RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="হবিগঞ্জ"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp"></RadioButton>
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.Tutorial.TutorialActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="top"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:fontFamily="@font/ubuntu_medium"
+            android:gravity="center"
+            android:text="টিউটোরিয়াল"
+            android:textColor="@color/colorWhite"
+            android:textSize="18sp"></TextView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/colorView"
+            android:layout_marginRight="24dp"
+            android:layout_marginLeft="24dp"></View>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="16sp"
+        android:text="মোবাইল দিয়ে বায়োডাটা তৈরির ভিডিও টিউটোরিয়াল"
+        android:layout_margin="8dp"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_margin="10dp"
+        android:background="@color/colorAccent"
+       ></View>
+    <WebView
+        android:id="@+id/mWebView"
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="16sp"
+        android:text="কম্পিউটার দিয়ে যেভাবে বায়োডাটা তৈরি করবেন"
+        android:layout_margin="8dp"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_margin="10dp"
+        android:background="@color/colorAccent"
+        ></View>
+    <WebView
+        android:id="@+id/mWebView1"
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

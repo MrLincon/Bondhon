@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/colorCard"
+        app:cardCornerRadius="6dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/rg_bioDataType"
+                android:paddingLeft="16dp">
+
+                <RadioButton
+                    android:id="@+id/biodata1"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:fontFamily="@font/liaoirrit_reg"
+                    android:text="পাত্রের বায়োডাটা"
+                    android:paddingLeft="24dp"
+                    android:textColor="@color/colorText"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:id="@+id/biodata2"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="পাত্রীর বায়োডাটা"
+                    android:fontFamily="@font/liaoirrit_reg"
+                    android:paddingLeft="24dp"
+                    android:textColor="@color/colorText"
+                    android:textSize="18sp" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/colorCard"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="60dp"
+        app:cardCornerRadius="6dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/rg_permanentAddress"
+                    android:paddingLeft="16dp">
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="@string/coxbazar"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="@string/kishorgng"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="@string/kurigram"
+                        android:paddingLeft="24dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:text="@string/cummila"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="@string/kustia"
+                        android:paddingLeft="24dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="@string/khagra"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="@string/khulna"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="@string/gai"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="@string/gazipur"
+                        android:paddingLeft="24dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="গোপালগঞ্জ"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="@string/chittagong"
+                        android:paddingLeft="24dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="@string/chadpur"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="@string/chapai"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="চুয়াডাঙ্গা"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="@string/joypurhat"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="@string/jamalpur"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="ঝালকাঠি"
+                        android:paddingLeft="24dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:text="ঝিনাইদহ"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:text="@string/tangail"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="ঠাকুরগাঁও"
+                        android:paddingLeft="24dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="@string/dhaka"
+                        android:paddingLeft="24dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="@string/dinajpur"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="@string/naogaon"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="নড়াইল"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:text="নরসিংদী"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="নাটোর"
+                        android:paddingLeft="24dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:text="নারায়ণগঞ্জ"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="নীলফামারী"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="নেত্রকোণা"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:text="নোয়াখালী"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="পঞ্চগড়"
+                        android:paddingLeft="24dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="পটুয়াখালী"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="পাবনা"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="পিরোজপুর"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="ফরিদপুর"
+                        android:paddingLeft="24dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="@string/feni"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:text="@string/bogura"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:layout_height="60dp"
+                        android:text="@string/borguna"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="বরিশাল"
+                        android:paddingLeft="24dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="বাগেরহাট"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="বান্দরবান"
+                        android:paddingLeft="24dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp" />
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="ব্রাহ্মণবাড়িয়া"
+                        android:paddingLeft="24dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp" />
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:text="ভোলা"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp" />
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:text="ময়মনসিংহ"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp" />
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="মাগুরা"
+                        android:paddingLeft="24dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="মাদারীপুর"
+                        android:paddingLeft="24dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="মানিকগঞ্জ"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="মুন্সিগঞ্জ"
+                        android:paddingLeft="24dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:text="মেহেরপুর"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+
+                    </RadioButton>
+
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="@string/mul"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:text="@string/jessore"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp" />
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="রংপুর"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp" />
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="রাঙ্গামাটি"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp" />
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="রাজবাড়ী"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp" />
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:text="রাজশাহী"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp" />
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="লক্ষ্মীপুর"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp" />
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="লালমনিরহাট"
+                        android:paddingLeft="24dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:text="শরীয়তপুর"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp" />
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="শেরপুর"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp" />
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:text="সাতক্ষীরা"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp" />
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="সিরাজগঞ্জ"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp" />
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="সিলেট"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp" />
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="সুনামগঞ্জ"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp" />
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/liaoirrit_light"
+                        android:text="@string/hobigong"
+                        android:paddingLeft="24dp"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp">
+
+                    </RadioButton>
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/layout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/liaoirrit_reg"
+                android:text="@string/pray"
+                android:textColor="@color/colorText"
+                android:textSize="16sp">
+
+            </TextView>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="16dp"
+                app:boxCornerRadiusTopEnd="6dp"
+                app:boxCornerRadiusTopStart="6dp"
+                app:errorEnabled="false"
+                app:hintTextColor="@color/colorText">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/prayerPerDay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/answer"
+                    android:inputType="text"
+                    android:textColor="@color/colorText"
+                    android:textCursorDrawable="@drawable/cursor_color" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/liaoirrit_reg"
+                android:text="নিয়মিত নামায কত সময় যাবত পড়ছেন? *"
+                android:textColor="@color/colorText"
+                android:textSize="16sp">
+
+            </TextView>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="16dp"
+                app:boxCornerRadiusTopEnd="6dp"
+                app:boxCornerRadiusTopStart="6dp"
+                app:errorEnabled="false"
+                app:hintTextColor="@color/colorText">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/prayerEveryDay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/liaoirrit_reg"
+                    android:hint="@string/answer"
+                    android:inputType="text"
+                    android:textColor="@color/colorText"
+                    android:textCursorDrawable="@drawable/cursor_color" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/liaoirrit_reg"
+                android:text="মাহরাম/নন-মাহরাম মেনে চলেন কি? *"
+                android:textColor="@color/colorText"
+                android:textSize="16sp">
+
+            </TextView>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="16dp"
+                app:boxCornerRadiusTopEnd="6dp"
+                app:boxCornerRadiusTopStart="6dp"
+                app:errorEnabled="false"
+                app:hintTextColor="@color/colorText">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/mahramNonMahram"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/answer"
+                    android:inputType="text"
+                    android:textColor="@color/colorText"
+                    android:textCursorDrawable="@drawable/cursor_color" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/liaoirrit_reg"
+                android:text="শুদ্ধভাবে কুরআন তিলওয়াত করতে পারেন? *"
+                android:textColor="@color/colorText"
+                android:textSize="16sp">
+
+            </TextView>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="16dp"
+                app:boxCornerRadiusTopEnd="6dp"
+                app:boxCornerRadiusTopStart="6dp"
+                app:errorEnabled="false"
+                app:hintTextColor="@color/colorText">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/quranReading"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/answer"
+                    android:inputType="text"
+                    android:textColor="@color/colorText"
+                    android:textCursorDrawable="@drawable/cursor_color" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/liaoirrit_reg"
+                android:text="কোন মাঝহাব অনুসরণ করেন? *"
+                android:textColor="@color/colorText"
+                android:textSize="16sp">
+
+            </TextView>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="16dp"
+                app:boxCornerRadiusTopEnd="6dp"
+                app:boxCornerRadiusTopStart="6dp"
+                app:errorEnabled="false"
+                app:hintTextColor="@color/colorText">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/mazhabFollowing"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/liaoirrit_reg"
+                    android:hint="@string/answer"
+                    android:inputType="text"
+                    android:textColor="@color/colorText"
+                    android:textCursorDrawable="@drawable/cursor_color" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/liaoirrit_reg"
+                android:text="কোনো রাজনৈতিক দর্শন থাকলে লিখুন *"
+                android:textColor="@color/colorText"
+                android:textSize="16sp">
+
+            </TextView>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="16dp"
+                app:boxCornerRadiusTopEnd="6dp"
+                app:boxCornerRadiusTopStart="6dp"
+                app:errorEnabled="false"
+                app:hintTextColor="@color/colorText">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/politicalSight"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/liaoirrit_reg"
+                    android:hint="@string/answer"
+                    android:inputType="text"
+                    android:textColor="@color/colorText"
+                    android:textCursorDrawable="@drawable/cursor_color" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/liaoirrit_reg"
+                android:text="নাটক/সিনেমা/সিরিয়াল/গান এসব দেখেন বা শুনেন? *"
+                android:textColor="@color/colorText"
+                android:textSize="16sp">
+
+            </TextView>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="16dp"
+                app:boxCornerRadiusTopEnd="6dp"
+                app:boxCornerRadiusTopStart="6dp"
+                app:errorEnabled="false"
+                app:hintTextColor="@color/colorText">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/movieSeries"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/answer"
+                    android:inputType="text"
+                    android:textColor="@color/colorText"
+                    android:textCursorDrawable="@drawable/cursor_color" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/liaoirrit_reg"
+                android:text="মানসিক বা শারীরিক কোনো রোগ আছে কি?	*"
+                android:textColor="@color/colorText"
+                android:textSize="16sp">
+
+            </TextView>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="16dp"
+                app:boxCornerRadiusTopEnd="6dp"
+                app:boxCornerRadiusTopStart="6dp"
+                app:errorEnabled="false"
+                app:hintTextColor="@color/colorText">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/physicalMentalDisease"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/answer"
+                    android:inputType="text"
+                    android:textColor="@color/colorText"
+                    android:textCursorDrawable="@drawable/cursor_color" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/liaoirrit_reg"
+                android:text="দ্বীনের কোন বিশেষ মেহনতে যুক্ত আছেন? *"
+                android:textColor="@color/colorText"
+                android:textSize="16sp">
+
+            </TextView>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="16dp"
+                app:boxCornerRadiusTopEnd="6dp"
+                app:boxCornerRadiusTopStart="6dp"
+                app:errorEnabled="false"
+                app:hintTextColor="@color/colorText">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/religiousAct"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/answer"
+                    android:inputType="text"
+                    android:textColor="@color/colorText"
+                    android:textCursorDrawable="@drawable/cursor_color" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/liaoirrit_reg"
+                android:text="আপনি কি কোনো পীরের মুরিদ বা অনুসারী? *"
+                android:textColor="@color/colorText"
+                android:textSize="16sp">
+
+            </TextView>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="16dp"
+                app:boxCornerRadiusTopEnd="6dp"
+                app:boxCornerRadiusTopStart="6dp"
+                app:errorEnabled="false"
+                app:hintTextColor="@color/colorText">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/followingPir"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/liaoirrit_reg"
+                    android:hint="@string/answer"
+                    android:inputType="text"
+                    android:textColor="@color/colorText"
+                    android:textCursorDrawable="@drawable/cursor_color" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/liaoirrit_reg"
+                android:text="মাজার সম্পর্কে আপনার ধারণা বা বিশ্বাস কি? *"
+                android:textColor="@color/colorText"
+                android:textSize="16sp">
+
+            </TextView>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="16dp"
+                app:boxCornerRadiusTopEnd="6dp"
+                app:boxCornerRadiusTopStart="6dp"
+                app:errorEnabled="false"
+                app:hintTextColor="@color/colorText">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/sightAboutMajar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/answer"
+                    android:inputType="text"
+                    android:textColor="@color/colorText"
+                    android:textCursorDrawable="@drawable/cursor_color" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/liaoirrit_reg"
+                android:text="আপনার পছন্দের অন্তত ৩ টি ইসলামী বই এর নাম লিখুন *"
+                android:textColor="@color/colorText"
+                android:textSize="16sp">
+
+            </TextView>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="16dp"
+                app:boxCornerRadiusTopEnd="6dp"
+                app:boxCornerRadiusTopStart="6dp"
+                app:errorEnabled="false"
+                app:hintTextColor="@color/colorText">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/threeIslamicBook"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/answer"
+                    android:inputType="text"
+                    android:textColor="@color/colorText"
+                    android:textCursorDrawable="@drawable/cursor_color" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/liaoirrit_reg"
+                android:text="আপনার পছন্দের অন্তত ৩ জন আলেমের নাম লিখুন *"
+                android:textColor="@color/colorText"
+                android:textSize="16sp">
+
+            </TextView>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="16dp"
+                app:boxCornerRadiusTopEnd="6dp"
+                app:boxCornerRadiusTopStart="6dp"
+                app:errorEnabled="false"
+                app:hintTextColor="@color/colorText">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/threeFavouriteAlem"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/liaoirrit_reg"
+                    android:hint="@string/answer"
+                    android:inputType="text"
+                    android:textColor="@color/colorText"
+                    android:textCursorDrawable="@drawable/cursor_color" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/liaoirrit_reg"
+                android:text="বিশেষ দ্বীনি বা দুনিয়াবি যোগ্যতা (যদি থাকে)"
+                android:textColor="@color/colorText"
+                android:textSize="16sp">
+
+            </TextView>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="16dp"
+                app:boxCornerRadiusTopEnd="6dp"
+                app:boxCornerRadiusTopStart="6dp"
+                app:errorEnabled="false"
+                app:hintTextColor="@color/colorText">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/specialReligiousQualification"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/answer"
+                    android:inputType="text|textMultiLine"
+                    android:maxLines="6"
+                    android:minHeight="120dp"
+                    android:textColor="@color/colorText"
+                    android:textCursorDrawable="@drawable/cursor_color" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/liaoirrit_reg"
+                android:text="নিজের সম্পর্কে কিছু লিখুন *"
+                android:textColor="@color/colorText"
+                android:textSize="16sp">
+
+            </TextView>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="120dp"
+                app:boxCornerRadiusTopEnd="6dp"
+                app:boxCornerRadiusTopStart="6dp"
+                app:errorEnabled="false"
+                app:hintTextColor="@color/colorText">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/aboutYourself"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/liaoirrit_reg"
+                    android:hint="@string/answer"
+                    android:inputType="text|textMultiLine"
+                    android:maxLines="6"
+                    android:minHeight="120dp"
+                    android:textColor="@color/colorText"
+                    android:textCursorDrawable="@drawable/cursor_color" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/save"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center|right"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="24dp"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+        app:cardBackgroundColor="@color/colorWhite"
+        app:cardCornerRadius="20dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:text="@string/save"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp">
+
+        </TextView>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

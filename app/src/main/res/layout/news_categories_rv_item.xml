@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="6dp"
+    app:cardCornerRadius="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:orientation="vertical">
+
+        <!--text view for displaying news category-->
+        <TextView
+            android:id="@+id/idTVCategory"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:drawableTint="@color/colorBlack"
+            android:padding="10dp"
+            android:fontFamily="@font/liaoirritsemibold"
+            android:drawableRight="@drawable/ic_arrow_down"
+            android:textColor="@color/colorBlack"
+            android:text="Category"
+            android:textSize="18sp" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/idCVCategory"
+            app:cardBackgroundColor="@color/colorOffWhite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="0dp"
+            app:cardElevation="0dp">
+
+            <!--recycler view for displaying news recycler view-->
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/idRVNews"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
